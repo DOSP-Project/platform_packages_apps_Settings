@@ -6539,7 +6539,7 @@
 
 
    <!-- [CHAR LIMIT=35] Feedback on the device -->
-   <string name="device_feedback">Send feedback about this device</string>
+   
 
     <!-- Full package name of OEM preferred device feedback reporter [DO NOT TRANSLATE] -->
     <string name="oem_preferred_feedback_reporter" translatable="false"></string>
