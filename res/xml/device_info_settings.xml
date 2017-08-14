@@ -21,9 +21,33 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
-        <!-- System update settings - Logo Segment -->
+     
+     
+        <!-- Dosp - Logo Segment -->
 
         <PreferenceScreen android:layout="@layout/logo" android:key="dosp_logo" />
+     </preferenceScreen>
+        
+
+       <!-- Dosp - Info Segment -->
+
+       <PreferenceScreen android:key="About_us"
+                android:title="@string/About_us"
+                android:summary="@string/About_us_summary">
+            <intent android:action="android.intent.action.VIEW"
+                        android:data="https://dosp-project.github.io/" />
+      </PreferenceScreen>
+       
+           <PreferenceScreen android:key="xda_thread"
+                android:title="@string/xda_thread"
+                android:summary="@string/xda_thread_summary">
+            <intent android:action="android.intent.action.VIEW"
+                        android:data="https://dosp-project.github.io/xda/" />
+      </PreferenceScreen>
+
+   
+
+
 
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
