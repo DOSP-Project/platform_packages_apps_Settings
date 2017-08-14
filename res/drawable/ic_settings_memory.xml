@@ -14,25 +14,14 @@
      limitations under the License.
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="32dp"
-        android:height="32dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorAccent">
-    <path
-        android:pathData="M6.0,4.0l0.0,16.0 12.0,0.0 0.0,-16.0 -12.0,0.0z
-        M6.0,5.25l0,1.5 -3,0 0,-1.5 3,0z
-        M6.0,9.25l0,1.5 -3,0 0,-1.5 3,0z
-        M6.0,13.25l0,1.5 -3,0 0,-1.5 3,0z
-        M6.0,17.25l0,1.5 -3,0 0,-1.5 3,0z
-        M21.0,5.25l0,1.5 -3,0 0,-1.5 3,0z
-        M21.0,9.25l0,1.5 -3,0 0,-1.5 3,0z
-        M21.0,13.25l0,1.5 -3,0 0,-1.5 3,0z
-        M21.0,17.25l0,1.5 -3,0 0,-1.5 3,0z
+    android:width="510dp"
+    android:height="510dp"
+    android:viewportWidth="510"
+    android:viewportHeight="510"
+    android:tint="?android:attr/colorAccent">
 
-        M11.5,14.5l1,0 0,3 -1,0 0,-3z
-        M13.25,14.5l1,0 0,3 -1,0 0,-3z
-        M15.0,14.5l1,0 0,3 -1,0 0,-3z
-        "
-        android:fillColor="@android:color/black" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M408,0H204L51,153v306c0,28.05,22.95,51,51,51h306c28.05,0,51-22.95,51-51V51C459,22.95,436.05,0,408,0z
+M255,153h-51V51 h51V153z M331.5,153h-51V51h51V153z M408,153h-51V51h51V153z" />
 </vector>
