@@ -21,7 +21,17 @@
     <string name="sim_card_summary_empty">SIM not inserted</string>
     <string name="sim_mobile_network_settings_category_title">Mobile network settings</string>
     <string name="sim_mobile_network_settings_title">SIM %d settings</string>
-
+     
+     
+    <!-- about us strings -->
+    <string name="About_us">About us</string>
+    <string name="About_us_summary">Know about us</string>
+    <string name="xda_thread">XDA Thread</string>
+    <string name="xda_thread_summary">View XDA thread of your device</string>
+     
+     
+     
+     
     <!-- Change Log strings -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">AOSP 7.1.2 changelog</string>
