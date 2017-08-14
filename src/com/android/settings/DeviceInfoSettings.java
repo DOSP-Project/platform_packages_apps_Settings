@@ -457,8 +457,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 if (Utils.isWifiOnly(context)) {
                     keys.add((KEY_BASEBAND_VERSION));
                 }
-                // Dont show feedback option if there is no reporter.
-                
                 final UserManager um = UserManager.get(context);
                 // TODO: system update needs to be fixed for non-owner user b/22760654
                 if (!um.isAdminUser()) {
