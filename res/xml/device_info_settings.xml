@@ -33,7 +33,7 @@
 
        <PreferenceScreen android:key="about_us"
                 android:title="@string/about_us"
-                android:summary="@string/about_us_summary">
+                android:summary="@string/about_us_summary"
                 android:fragment="com.android.settings.deviceinfo.AboutUs" >
       </PreferenceScreen>
 
