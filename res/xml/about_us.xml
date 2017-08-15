@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 DOSP-project ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/dosp_about_info">
+
+<PreferenceCategory
+              android:key="about"
+              android:title="@string/dev_info" >
+
+        <PreferenceScreen
+    android:summary="@string/dosp_about_info_summary" >
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://plus.google.com/communities/106726906578669931141" />
+      </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/github"
+    android:summary="@string/github_description"
+    android:icon="@drawable/ic_github" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://github.com/DOSP-Project" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/gplus"
+    android:summary="@string/gplus_description"
+    android:icon="@drawable/ic_gplus" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://plus.google.com/communities/106726906578669931141" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/telegram"
+    android:summary="@string/telegram_description"
+    android:icon="@drawable/ic_telegram" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://telegram.me/DOSP-Community" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/web"
+    android:summary="@string/web_description"
+    android:icon="@drawable/ic_web" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://dosp-project.github.io/" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/help_translate"
+    android:summary="@string/help_translate_description"
+    android:icon="@drawable/ic_trans" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://dosp-project.github.io/translate/" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/walls"
+    android:summary="@string/walls_description"
+    android:icon="@drawable/ic_walls" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://dosp-project.imgur.com/" />
+        </PreferenceScreen>
+
+     </PreferenceCategory>
+
+<PreferenceCategory
+              android:key="leads"
+              android:title="@string/leads" >
+
+        <PreferenceScreen
+            android:title="@string/team_1"
+    android:summary="@string/team1_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://plus.google.com/+kukunmishra" />
+        </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/team_2"
+    android:summary="@string/team2_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/joe2k01" />
+        </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/team_3"
+    android:summary="@string/team3_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/Ayushd70" />
+        </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/team_4"
+    android:summary="@string/team4_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/thakurfazer55" />
+      </PreferenceScreen>
+
+
+</PreferenceCategory>
+
+</PreferenceScreen>
