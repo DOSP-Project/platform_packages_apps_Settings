@@ -31,21 +31,12 @@
 
        <!-- Dosp - Info Segment -->
 
-       <PreferenceScreen android:key="About_us"
-                android:title="@string/About_us"
-                android:summary="@string/About_us_summary">
-            <intent android:action="android.intent.action.VIEW"
-                        android:data="https://dosp-project.github.io/" />
-      </PreferenceScreen>
-       
-           <PreferenceScreen android:key="xda_thread"
-                android:title="@string/xda_thread"
-                android:summary="@string/xda_thread_summary">
-            <intent android:action="android.intent.action.VIEW"
-                        android:data="https://dosp-project.github.io/xda/" />
+       <PreferenceScreen android:key="about_us"
+                android:title="@string/about_us"
+                android:summary="@string/about_us_summary">
+                android:fragment="com.android.settings.deviceinfo.AboutUs" >
       </PreferenceScreen>
 
-   
         <!-- Change Log -->
         <PreferenceScreen android:key="changelog"
             android:title="@string/changelog_title"
@@ -208,13 +199,4 @@
             style="?android:preferenceInformationStyle"
             android:title="@string/device_maintainer"
             android:summary="@string/device_maintainer_default" />
-
-        <!-- DOSPTeam Google+ Community shortcut -->
-        <Preference android:key="community"
-            android:title="@string/community"
-            android:summary="@string/community_summary" >
-            <intent android:action="android.intent.action.VIEW"
-                    android:data="https://plus.google.com/communities/103152479513282843966" />
-        </Preference>
-
 </PreferenceScreen>
