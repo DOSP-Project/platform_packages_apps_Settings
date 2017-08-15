@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2007 The DOSP Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,6 +29,41 @@
     <string name="dlg_close">Close</string>
     <!-- Strings for Dialog switch button [CHAR LIMIT=20] -->
     <string name="dlg_switch">Switch</string>
+	
+	<!-- about us strings -->
+    <string name="about_us">About us</string>
+    <string name="about_us_summary">Our introduction</string>
+    <string name="xda_thread">XDA Thread</string>
+    <string name="xda_thread_summary">View XDA thread of your device</string>
+	
+	
+	
+	<!-- Device Info -->
+	<string name="dosp_about_info">About us</string>
+	<string name="dosp_about_info_summary">DOSP ( Desi Open Source Project ) is an AOSP based rom which provides Customise UI with various customisations features. The project has been made with help of various commits from various other projects like (LineageOS/CyanogenMOD, AOSiP, DirtyUnicorns, Pure Nexus, Aosp Extended). Being based on AOSP it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates. Thanks For Be the part of our family. #TeamDOSP</string>
+	<string name="dev_info">About DOSP</string>
+	<string name="github">Github</string>
+	<string name="github_description">View our source code</string>
+	<string name="gplus">Google+</string>
+	<string name="gplus_description">Join our G+ community</string>
+	<string name="telegram">Telegram</string>
+    <string name="telegram_description">Interact with us our Telegram channel</string>
+	<string name="web">Download Center</string>
+	<string name="web_description">Visit our download portal</string>
+	<string name="help_translate">Translation</string>
+	<string name="help_translate_description">Help us to translate</string>
+	<string name="walls">Wallpapers</string>
+	<string name="walls_description">Get wallpapers contributed by various users</string>
+	<string name="leads">Team Members</string>
+	<string name="team_1">Kukun Mishra (kuck7610/kukun7610)</string>
+	<string name="team1_description">Founder / Lead Developer</string>
+	<string name="team_2">Giuseppe</string>
+	<string name="team2_description">Developer</string>
+	<string name="team_3">Ayush Dubey</string>
+	<string name="team3_description">Developer</string>
+	<string name="team_4">Neeraj Thakur</string>
+	<string name="team4_description">Developer</string>
+	
 
     <!-- Device Info --> <skip />
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
