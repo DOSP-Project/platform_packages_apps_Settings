@@ -25,7 +25,7 @@
      
         <!-- Dosp - Logo Segment -->
 
-        <PreferenceScreen android:layout="@layout/logo" android:key="dosp_logo" />
+        <PreferenceScreen android:layout="@layout/dosp_logo_header" android:key="dosp_logo" />
      </preferenceScreen>
         
 
