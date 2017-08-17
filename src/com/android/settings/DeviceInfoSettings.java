@@ -74,7 +74,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_MBN_VERSION = "persist.mbn.version";
     private static final String KEY_QGP_VERSION = "qgp_version";
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
-    private static final String KEY_DEVICE_MAINTAINERS = "device_maintainer";
+ 
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -123,8 +123,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
-        // Device Maintainers
-        setValueSummary(KEY_DEVICE_MAINTAINERS, "ro.device.maintainer");
+        
         // Remove QGP Version if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
                 PROPERTY_QGP_VERSION);
