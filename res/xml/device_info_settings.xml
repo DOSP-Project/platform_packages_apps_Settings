@@ -85,9 +85,9 @@
                 android:summary="@string/device_info_default"/>
 
         <!-- Extended version --> 
-        <Preference android:key="extended_version"
-                android:title="@string/extended_version"
-                android:summary="@string/extended_version_default"/>
+        <Preference android:key="dosp_version"
+                android:title="@string/dosp_version"
+                android:summary="@string/dosp_version_default"/>
 
         <!-- Security patch level -->
         <Preference android:key="security_patch"
