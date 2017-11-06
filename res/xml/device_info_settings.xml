@@ -13,7 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
+ 
+         <!-- About Logo Header -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 <Preference android:layout="@layout/logo" android:key="dosp_logo" />
@@ -21,9 +22,10 @@
         <!-- About us -->
         <Preference
         android:key="aex_about_info"
-        android:title="@string/aex_about_info"
-	android:summary="@string/aex_about_summary"
-        android:fragment="com.android.settings.AboutUs" />
+        android:title="@string/dosp_about_info"
+	android:summary="@string/dosp_about_summary"
+        <intent android:action="android.intent.action.VIEW"
+                        android:data="https://dosp-project.github.io/aboutus.html" />
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
