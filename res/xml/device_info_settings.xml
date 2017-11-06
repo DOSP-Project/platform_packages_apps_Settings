@@ -36,7 +36,7 @@
         </Preference>
 
         <!-- Changelog -->
-        <Preference
+        <!--Preference
             android:key="changelog"
             android:title="@string/changelog_title"
 	    android:summary="@string/changelog_summary"
